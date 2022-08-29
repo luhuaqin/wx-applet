@@ -38,6 +38,17 @@ Page({
     }
   },
 
+  // 封装点击item跳转的方法
+  handleVideoItemClick: function(event) {
+    // 获取item id
+    const id = event.currentTarget.dataset.item.id
+
+    // 页面跳转
+    wx.navigateTo({
+      url: `/pages/video-detail/index?id=${id}`,
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
