@@ -1,2 +1,27 @@
 /* components/video-item-v1/index.wxss */
+page {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
 
+.van-search__content {
+  background-color: #fff
+}
+
+.van-search {
+  padding: 10rpx 0 !important;
+}
+
+/* 轮播图样式 */
+.swiper {
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.swiper-item {
+  display: flex;
+}
+
+.swiper-item .swiper-image {
+  width: 100%;
+}

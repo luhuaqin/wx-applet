@@ -1,0 +1,6 @@
+<!--pages/detail-search/index.wxml-->
+<van-search
+  placeholder="搜索你喜欢的歌曲"
+  shape="round"
+  background="#fafafa"
+/>
